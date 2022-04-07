@@ -1,0 +1,54 @@
+body {
+    position: relative;
+}
+
+#section1 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #1E88E5;
+}
+
+#section2 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #673ab7;
+}
+
+#section3 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #ff9800;
+}
+
+#section41 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #00bcd4;
+}
+
+#section42 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #009688;
+}
+
+#contact {
+    padding-top: 50px;
+    /*height: 240px;
+    color: #fff;
+    background-color: #716f6b; */
+    font-size: 16px;
+}
+
+#research {
+    padding-top: 40px;
+    /*height: 200px;
+    color: #fff;
+    background-color: #716f6b; */
+    font-size: 16px;
+}
