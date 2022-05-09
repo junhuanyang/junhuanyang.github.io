@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>World’s Top Universities</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/shark_icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="JS_CSS_downloaded_libraries/dc.css">
+    <link rel="stylesheet" type="text/css" href="JS_CSS_downloaded_libraries/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="JS_CSS_downloaded_libraries/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="myCSS_styleFiles/main.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- 1st row - map title  -->
+        <div class="row">
+            <div class="col-xs-12 dc-data-count dc-chart" id="data-count">
+                <h3><b>Interactive Map for Discovering the World’s Top Universities</b></h3>
+
+                <!-- Trigger the modal with a button -->
+
+
+                <!-- 2nd row - subtitle and data count  -->
+                <div class="row">
+                    <div class="col-xs-12 dc-data-count dc-chart" id="data-count">
+                        <h4>World’s Top Universities
+                            <small>
+            <span class="filter-count"></span> selected out of <span class="total-count"></span> records |
+            <a id="all" href="#">Reset All</a>
+            </span>
+            </small>
+                            <!-- <button type="button" class="btn btn-default info pull-right" data-toggle="modal" data-target="#myModal">About the project</button> -->
+                            <div class="btn btn-default info pull-right">
+                                <a href="about.html">About the website</a>
+                            </div>
+                        </h4>
+                    </div>
+                </div>
+
+
+                <!-- 3rd row - map -->
+                <div class="row" id="control-row">
+                    <div class="col-xs-8">
+                        <h4>
+                            World’s Top Universities Marker Map
+                            <!-- | <a href="index_2.html">Shark Attacks Choropleth Map</a> -->
+                        </h4>
+
+                        <p><i>(<span style="color:red">red</span>: Top 100; <span style="color:orange">orange</span>: Top 100-500; <span style="color: #493F3F">gray</span>: Other)</i></p>
+                        <div id="map"></div>
+                    </div>
+
+                </div>
+                <!-- 4th row - pie charts and bar charts -->
+                <div class="row" id="control-row">
+                    <div class="col-xs-4 pie-chart">
+                        <h4><br>Countries <small><a id="season">reset</a></small></h4>
+                        <div class="dc-chart" id="chart-ring-season"></div>
+                    </div>
+                    <div class="col-xs-6 pie-chart">
+                        <h4>Continents <small><a id="injury" href="#">reset</a></small></h4>
+                        <div class="dc-chart" id="chart-ring-injury"></div>
+                    </div>
+                    <!-- <div class="col-xs-6 col-md-4">
+                        <h4>Continent</h4>
+                        <div class="dc-chart" id="chart-continent-count"></div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <h4>Top Universities in Countries</h4>
+                        <div class="dc-chart" id="#chart-ring-country"></div>
+                    </div> -->
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="row" id="control-row">
+
+                    <!-- <div class="col-xs-4 pie-chart">
+                        <h4>Injury Type <small><a id="injury" href="#">reset</a></small></h4>
+                        <div class="dc-chart" id="chart-ring-injury"></div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <h4>Continent</h4>
+                        <div class="dc-chart" id="chart-continent-count"></div>
+                    </div> -->
+                    <!-- <div class="col-xs-6 col-md-4">
+                        <h4>Top Universities in Countries</h4>
+                        <div class="dc-chart" id="#chart-ring-country"></div>
+                    </div> -->
+                    <div class="col-xs-12 col-md-4">
+                        <h4> Top Universities in Countries</h4>
+                        <div class="dc-chart" id="chart-country-count"></div>
+                    </div>
+                    <!-- <div class="col-xs-12 col-md-4">
+                        <h4> Number of Universities in Scores</h4>
+                        <div class="dc-chart" id="#chart-score-bar"></div>
+                    </div> -->
+                </div>
+                <div class="row" id="control-row"></div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <h4> Number of Universities Distributed in Scores(2022) (No score is shown as 0)</h4>
+                        <!-- <button type="button" class="collapsible"><strong> Number of Universities Distributed in Scores </strong> </button> -->
+                        <div class="content">
+                            <div class="row">
+                                <div class=" col-md-6">
+                                    <!-- <h4 style="text-align: center;">Heart Mass (g)</h4> -->
+                                    <div class="dc-chart" id="chart-score-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 5th row - table -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped" id="data-table">
+                            <thead>
+                                <tr class="header">
+                                    <th>University</th>
+                                    <th>Ranking</th>
+                                    <th>Score</th>
+                                    <th>City</th>
+                                    <th>Country</th>
+                                    <th>Region</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <script type="text/javascript" src="JS_CSS_downloaded_libraries/d3.js"></script>
+            <script type="text/javascript" src="JS_CSS_downloaded_libraries/crossfilter.js"></script>
+            <script type="text/javascript" src="JS_CSS_downloaded_libraries/dc.js"></script>
+            <script type="text/javascript" src="JS_CSS_downloaded_libraries/leaflet.js"></script>
+            <script type="text/javascript" src="JS_CSS_downloaded_libraries/underscore-min.js"></script>
+            <script type="text/javascript" src="JS_CSS_downloaded_libraries/jQuery.js"></script>
+            <script type="text/javascript" src="JS_CSS_downloaded_libraries/Bootstrap.js"></script>
+            <script type="text/javascript">
+                /* instantiate and configure map */
+                var map = L.map('map').setView([42.360091, -71.09416], 4);
+                var uniMarkers = new L.FeatureGroup();
+
+
+
+                var OpenStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+                    maxZoom: 20,
+                    attribution: '&copy; OpenStreetMap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                });
+
+                OpenStreetMap.addTo(map);
+
+
+                d3.csv("dataset/combined_QS_WorldUniversityRankings_2017_2022.csv", function(error, data) {
+
+                    var ndx = crossfilter(data);
+
+
+
+
+                    var continentDim = ndx.dimension(function(d) {
+                        return d["continent"];
+                    });
+                    var scoreDim = ndx.dimension(function(d) {
+                        console.log(d["score_2022_2"])
+                        return +d["score_2022_2"];
+                    });
+                    var countryDim = ndx.dimension(function(d) {
+                        return d["country"];
+                    });
+                    var regionDim = ndx.dimension(function(d) {
+                        return d["region"];
+                    });
+                    var allDim = ndx.dimension(function(d) {
+                        return d;
+                    });
+
+
+                    var all = ndx.groupAll();
+                    var countCountry = countryDim.group().reduceCount();
+                    var countContinent = regionDim.group();
+                    var scoreGroup = scoreDim.group(function(score_2022_2) { //This allows you to fix bin widths to make chart more intuitive and aesthtically pleasing
+                        return Math.floor(score_2022_2 / 1) * 1;
+                    }).reduceCount(); //define score group
+
+
+                    let speciesColors = [{
+                        'value': 'China(mainland)',
+                        'color': '#2471A3'
+                    }, {
+                        'value': 'Hongkong',
+                        'color': '#5499C7'
+                    }];
+                    // specify charts
+                    // This is where the chart variable is defined.
+                    var seasonChart = dc.pieChart('#chart-ring-season'),
+                        injuryChart = dc.pieChart('#chart-ring-injury');
+                    // continentCountBarChart = dc.barChart('#chart-continent-count');
+                    var countryBarChart = dc.barChart('#chart-country-count'),
+                        scoreHistogram = dc.barChart('#chart-score-bar'),
+                        dataCount = dc.dataCount('#data-count'),
+                        dataTable = dc.dataTable('#data-table');
+
+                    injuryChart
+                        .width(280)
+                        .height(320)
+                        .ordinalColors(['#493F3F', 'red', 'orange'])
+                        .dimension(regionDim)
+                        .group(countContinent)
+                        .innerRadius(20)
+
+
+                    seasonChart
+                        .width(300)
+                        .height(340)
+                        .ordinalColors(['#88d670', '#ff4e50', '#DBA72E', '#034AA6', '#493F3F'])
+                        .dimension(countryDim)
+                        .group(countCountry)
+                        .innerRadius(20)
+                        .ordering(function(d) {
+                            var order = {
+                                'spring': 1,
+                                'summer': 2,
+                                'fall': 3,
+                                'winter': 4,
+                                'unknown': 5,
+                            };
+                            return order[d.key];
+                        });
+
+                    // continentCountBarChart
+                    //     .width(400)
+                    //     .height(350)
+                    //     .dimension(continentDim)
+                    //     .group(continentGroup)
+                    //     .x(d3.scale.ordinal().domain(continentDim)) //d3.scale.ordinal().domain(genusDim) //d3.scaleBand() for d3 v4
+                    //     .xUnits(dc.units.ordinal)
+                    //     .elasticX(true)
+                    //     .elasticY(true)
+                    //     .brushOn(false)
+                    //     .centerBar(true)
+                    //     .barPadding(0.3)
+                    //     .outerPadding(1.2)
+                    //     .gap(30)
+                    //     // .xAxisLabel('Continent')
+                    //     .yAxisLabel('Count')
+                    //     .margins({
+                    //         top: 25,
+                    //         right: 20,
+                    //         bottom: 100,
+                    //         left: 80
+                    //     })
+                    //     // because of the x axix label, need to set the bootom margin a large number
+                    //     .renderlet(function(chart) {
+                    //         chart.selectAll("g.x text")
+                    //             // .attr('dx', '-30')
+                    //             .attr('dx', '-35')
+                    //             .attr('transform', "rotate(-45)");
+                    //     });
+                    // continentCountBarChart.xAxis().tickValues(continentDim);
+
+                    // countryBarChart
+                    //     .width(1000)
+                    //     .height(350)
+                    //     .dimension(countryDim)
+                    //     .group(countCountry)
+                    //     .x(d3.scale.ordinal().domain(countryDim)) //d3.scale.ordinal().domain(genusDim) //d3.scaleBand() for d3 v4
+                    //     .xUnits(dc.units.ordinal)
+                    //     .elasticX(true)
+                    //     .elasticY(true)
+                    //     .brushOn(false)
+                    //     .centerBar(true)
+                    //     .xAxisLabel('Country')
+                    //     .yAxisLabel('Count')
+                    //     .margins({
+                    //         top: 25,
+                    //         right: 20,
+                    //         bottom: 100,
+                    //         left: 80
+                    //     })
+                    //     .barPadding(0.3)
+                    //     .outerPadding(1)
+                    //     .gap(20)
+                    //     // because of the x axix label, need to set the bootom margin a large number
+                    //     .renderlet(function(chart) {
+                    //         chart.selectAll("g.x text")
+                    //             // .attr('dx', '-30')
+                    //             .attr('dx', '-35')
+                    //             .attr('transform', "rotate(-45)");
+                    //     });
+
+                    countryBarChart
+                        .width(2000)
+                        .height(400)
+                        .margins({
+                            top: 25,
+                            right: 20,
+                            bottom: 200,
+                            left: 30
+                        }) // because of the x axix label, need to set the bootom margin a large number
+                        .x(d3.scale.ordinal().domain(countryDim)) //d3.scale.ordinal().domain(genusDim) //d3.scaleBand() for d3 v4
+                        .xUnits(dc.units.ordinal)
+                        // .ordinalColors(["grey"])
+                        .brushOn(false)
+                        // .xAxisLabel('Macroarea')
+                        // .yAxisLabel('Count')
+                        .elasticX(true)
+                        .elasticY(true)
+                        .yAxisPadding('10%')
+                        .dimension(countryDim)
+                        .barPadding(0.01)
+                        .outerPadding(0.05)
+                        .group(countCountry)
+                        .renderlet(function(chart) {
+                            chart.selectAll("g.x text")
+                                // .attr('dx', '-30')
+                                .attr('dx', '-5')
+                                // .attr("text-anchor", "end")
+                                // .attr('dy', '60')
+                                .attr('transform', "rotate(-70)")
+                                .style("text-anchor", "end");
+
+                        });
+
+                    scoreHistogram
+                        .width(600)
+                        .height(250)
+                        .margins({
+                            top: 10,
+                            right: 20,
+                            bottom: 35,
+                            left: 50
+                        }) // because of the x axix label, need to set the bootom margin a large number
+                        .x(d3.scale.linear().domain([0, 100.01])) //d3.scale.ordinal().domain(genusDim) //d3.scaleBand() for d3 v4 //May want to make this non-ordinal
+                        // .xUnits(dc.units.linear)
+                        .xUnits(function() {
+                            return 10;
+                        })
+                        .linearColors(["#bb0a1e"])
+                        .brushOn(true)
+                        .xAxisLabel('Scores')
+                        .yAxisLabel('Count')
+                        // .elasticX(true)
+                        .elasticY(true)
+                        .yAxisPadding('10%')
+                        .xAxisPadding('10%')
+                        .dimension(scoreDim)
+                        .barPadding(0.1)
+                        .outerPadding(0.5)
+                        .group(scoreGroup)
+                        .renderlet(function(chart) {
+                            chart.selectAll("g.x text")
+                                // .attr('dx', '-30')
+                                .attr('dx', '0')
+                                .attr('transform', "rotate(0)");
+                        });
+                    // need to tweak this...
+                    scoreHistogram.xAxis().tickValues([0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]);
+
+
+                    // .renderlet(function(chart) {
+                    //     chart.selectAll("g.x text")
+                    //         // .attr('dx', '-30')
+                    //         .attr('dx', '0')
+                    //         .attr('dy', '10')
+                    //         .attr('transform', "rotate(-70)");
+                    // });
+                    // countryBarChart.colorAccessor(function(data) {
+                    //         return data.key;
+                    //     })
+                    //     .colors(function(data) {
+                    //         return colorSchema(countryColors, data);
+                    //     });
+
+
+
+
+
+
+
+
+
+
+
+                    // causeCountBarChart.xAxis().tickValues(d3.range(d["cause"].length()));
+
+                    // countryPieChart
+                    //     .width(280)
+                    //     .height(320)
+                    //     .ordinalColors(['#493F3F', 'red', 'orange'])
+                    //     .dimension(countryDim)
+                    //     .group(countCountry)
+                    //     .innerRadius(30)
+
+                    // regionPieChart
+                    //     .width(200)
+                    //     .height(200)
+                    //     .dimension(regionDim)
+                    //     .group(regionGroup)
+                    //     .innerRadius(20)
+                    //     .ordinalColors(["#003f5c", "#ff6361", "#ffa600", "red", "blue", "yellow", "black"])
+                    // .ordering(function(d) {
+                    //     return -d.value
+                    // });
+
+
+
+                    dataCount
+                        .dimension(ndx)
+                        .group(all);
+
+                    // var rank = _.each(allDim.top(Infinity), function(d) {
+                    //     var rank_2022 = d["rank_2022"];
+                    //     if (rank_2022[3] == "-") {
+                    //         rank_2022 = rank_2022.slice(0, 2);
+                    //     } else if (rank_2022[4] == "-") {
+                    //         rank_2022 = rank_2022.slice(0, 3);
+                    //     }
+                    //     return rank_2022
+                    // });
+
+
+
+
+                    // This is where you can adjust the columns of the fields in the tale.
+                    dataTable
+                        .dimension(allDim)
+                        .group(function(d) {
+                            return 'dc.js insists on putting a row here so I remove it using JS';
+                        })
+                        .size(1300)
+                        .columns([
+                            function(d) {
+                                return d["university"];
+                            },
+                            function(d) {
+                                return d["rank_2022"];
+                            },
+                            function(d) {
+                                return d["score_2022"];
+                            },
+                            function(d) {
+                                return d["city"];
+                            },
+                            function(d) {
+                                return d["country"];
+                            },
+                            function(d) {
+                                return d["region"];
+                            },
+                        ])
+                        // This is the place to sort the data table, choose one of the table columns.
+                        .sortBy(dc.pluck('country'))
+                        // .sortBy(+'rank_2021')
+                        .order(d3.ascending)
+                        .on('renderlet', function(table) {
+                            // each time table is rendered remove nasty extra row dc.js insists on adding
+                            table.select('tr.dc-table-group').remove();
+
+                            // update map with shark attacks to match filtered data
+                            uniMarkers.clearLayers();
+                            _.each(allDim.top(Infinity), function(d) {
+                                // var loc = d.brewery.location;
+                                // this is the code for the geospatial Long/Lat
+                                var university = d["university"];
+                                var longitude = d["Longitude"];
+                                var latitude = d["Latitude"];
+                                var city = d["city"];
+                                var country = d["country"];
+                                var region = d["region"];
+                                var wbesite = d["link"];
+                                var rank_2022 = d["rank_2022"];
+                                var rank_2021 = d["rank_2021"];
+                                var rank_2020 = d["rank_2020"];
+                                var rank_2019 = d["rank_2019"];
+                                var rank_2018 = d["rank_2018"];
+                                var rank_2017 = d["rank_2017"];
+                                var score_2022 = d["score_2022"];
+                                var score_2021 = d["score_2021"];
+                                var score_2020 = d["score_2020"];
+                                var score_2019 = d["score_2019"];
+                                var score_2018 = d["score_2018"];
+                                var score_2017 = d["score_2017"];
+
+
+                                var fillColor_Var = "";
+
+                                if (rank_2022 <= 100) {
+                                    fillColor_Var = "red";
+                                } else if (rank_2022 <= 500) {
+                                    fillColor_Var = "orange";
+                                } else {
+                                    fillColor_Var = "#493F3F";
+                                }
+
+                                var marker = L.circleMarker([latitude, longitude], {
+                                    radius: 5,
+                                    fillColor: fillColor_Var,
+                                    color: "gray",
+                                    weight: 1,
+                                    opacity: 1,
+                                    fillOpacity: 0.8
+                                });
+
+
+
+
+                                // marker.bindPopup("<p>" + name + " " + loc.brewery_city + " " + loc.brewery_state + "</p>");
+                                marker.bindPopup(university + "<br>" + "<b> Year: 2022, Ranking: </b>" + rank_2022 + ", <b> Score: </b>" + score_2022 + "<br>" +
+                                    "<b> Year: 2021, Ranking: </b>" + rank_2021 + ", <b> Score: </b>" + score_2021 +
+                                    "<br>" + "<b> Year: 2020, Ranking: </b>" + rank_2020 + ", <b> Score: </b>" + score_2020 +
+                                    "<br>" + "<b> Year: 2019, Ranking: </b>" + rank_2019 + ", <b> Score: </b>" + score_2019 +
+                                    "<br>" + "<b> Year: 2018, Ranking: </b>" + rank_2018 + ", <b> Score: </b>" + score_2018 +
+                                    "<br>" + "<b> Year: 2017, Ranking: </b>" + rank_2017 + ", <b> Score: </b>" + score_2017 + "<br>" +
+                                    "<b> Web: </b>" + '<a href= "' + wbesite + '" target="_blank">' + wbesite + "</a>" + "<br>" +
+                                    "<b> Country: </b>" + country + "<br>" + "<b> City: </b>" + city
+
+                                );;
+                                uniMarkers.addLayer(marker);
+                            });
+                            map.addLayer(uniMarkers);
+                            map.fitBounds(uniMarkers.getBounds());
+                        });
+
+                    // register handlers
+                    d3.selectAll('a#all').on('click', function() {
+                        dc.filterAll();
+                        dc.renderAll();
+                    });
+
+                    d3.selectAll('a#season').on('click', function() {
+                        seasonChart.filterAll();
+                        dc.redrawAll();
+                    });
+
+                    d3.selectAll('a#injury').on('click', function() {
+                        injuryChart.filterAll();
+                        dc.redrawAll();
+                    });
+
+                    // showtime!
+                    dc.renderAll();
+
+                });
+            </script>
+
+
+
+</body>
+
+</html>
