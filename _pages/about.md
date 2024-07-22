@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in Information Technology at the George Mason University, advised by [Lei Yang](https://leiyang0416.github.io/) and [Weiwen Jiang](https://jqub.github.io/). My research interest includes *edge machine learning*, *AI4Science on edge*, *effiencient AI*. I have published 10+ conference and journal papers.
+I am a Ph.D. student in Information Technology at the George Mason University, advised by [Lei Yang](https://leiyang0416.github.io/) and [Weiwen Jiang](https://jqub.github.io/). My research interest includes *edge machine learning*, *AI4Science on edge*, *effiencient AI*. I have published 10+ conference and journal papers ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
 I also collaborate with [Youzuo Lin](https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
 
 I graduated from School of Information and Software Engineering,
