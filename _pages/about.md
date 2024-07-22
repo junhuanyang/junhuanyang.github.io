@@ -17,15 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in Information Technology at the George Mason University, advised by [Lei Yang](https://leiyang0416.github.io/) and [Weiwen Jiang](https://jqub.github.io/). My research interest includes edge machine learning, AI4Science on edge, effiencient AI. I have published 10+ conference and journal papers with total google scholar citations  <a href='https://scholar.google.com/citations?user=otFECasAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-I also collaborate with [Youzuo Lin] (https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
+I am a Ph.D. student in Information Technology at the George Mason University, advised by [Lei Yang](https://leiyang0416.github.io/) and [Weiwen Jiang](https://jqub.github.io/). My research interest includes *edge machine learning*, *AI4Science on edge*, *effiencient AI*. I have published 10+ conference and journal papers.
+I also collaborate with [Youzuo Lin](https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
 
 I graduated from School of Information and Software Engineering,
 University of Electronic Science and Technology of China with a bachelor’s degree and a master’s degree, advised by Jinyu Zhan.
-
-
-
-
 
 
 
@@ -37,8 +33,6 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 
 # 📝 Selected Publications 
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">DAC2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> -->
 - *EdGeo: A Physics-guided Generative AI Toolkit for Geophysical Monitoring on Edge Devices*,
 **Junhuan Yang**, Hanchen Wang, Yi Sheng, Youzuo Lin and Lei Yang
 
@@ -52,14 +46,6 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 - [*Automated Architecture Search for Brain-inspired Hyperdimensional Computing*](https://2022.automl.cc/wp-content/uploads/2022/07/automated_architecture_search_.pdf)
 **Junhuan Yang**, Yi Sheng, Sizhe Zhang, Ruixuan Wang, Kenneth Foreman, Mikell Paige, Xun Jiao, Weiwen Jiang, Lei Yang
 
-
-<!-- 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div> -->
-<!-- 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
 - *2024.06* DAC Young Fellow
