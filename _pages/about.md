@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in Information Technology at the George Mason University, advised by [Lei Yang](https://leiyang0416.github.io/) and [Weiwen Jiang](https://jqub.github.io/). My research interest includes *edge machine learning*, *AI4Science on edge*, *effiencient AI*. I have published 10+ conference and journal papers ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
+I am a Ph.D. student in Information Technology (Information Science and Technology) at the George Mason University, advised by [Lei Yang](https://leiyang0416.github.io/) and [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on  *edge machine learning*, *AI4Science at the edge*, and *efficient AI*. I have authored over 10 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
 I also collaborate with [Youzuo Lin](https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
 
 I graduated from School of Information and Software Engineering,
@@ -26,6 +26,7 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 
 
 # 🔥 News
+- *2024.09*: We give the tutorial of [Novel Toolkits toward AI for Science on Resource-Constrained Computing Systems](https://esfair2023.github.io/esweek_turtorial/) at [ESWEEK 2024](https://esweek.org/tutorials/)
 - *2024.07*: &nbsp;🎉🎉 Two papers are accepted by MICCAI 2024
 - *2024.06*: We give the tutorial of [Deep Learning Techniques for Wave-Based Imaging](https://junhuanyang.github.io/Computational-Wave-Imaging/) at [SIAM 2024](https://www.siam.org/conferences/cm/program/minitutorials/is24-minitutorials)
 - *2024.02*: &nbsp;🎉🎉 One paper is accepted by DAC 2024
@@ -34,17 +35,17 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 # 📝 Selected Publications 
 
 - *EdGeo: A Physics-guided Generative AI Toolkit for Geophysical Monitoring on Edge Devices*,
-**Junhuan Yang**, Hanchen Wang, Yi Sheng, Youzuo Lin and Lei Yang
+**Junhuan Yang**, Hanchen Wang, Yi Sheng, Youzuo Lin and Lei Yang. ***DAC2024***
 
-- [*Enhanced AI for Science using Diffusion-based Generative AI-A Case Study on Ultrasound Computing Tomography*](https://dl.acm.org/doi/pdf/10.1145/3649476.3660360), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Hanchen Wang, Youzuo Lin, Lei Yang
+- [*Enhanced AI for Science using Diffusion-based Generative AI-A Case Study on Ultrasound Computing Tomography*](https://dl.acm.org/doi/pdf/10.1145/3649476.3660360), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Hanchen Wang, Youzuo Lin, Lei Yang. ***GLSVLSI2024***
 
-- [*On-Device Unsupervised Image Segmentation*](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10247959), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Weiwen Jiang, Lei Yang 
+- [*On-Device Unsupervised Image Segmentation*](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10247959), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Weiwen Jiang, Lei Yang. ***DAC2023***
 
 - [*Hardware-aware Automated Architecture Search for Brain-inspired Hyperdimensional Computing*](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9912048),
-**Junhuan Yang**, Venkat Kalyan Reddy Yasa, Yi Sheng, Dayane Reis, Xun Jiao, Weiwen Jiang, Lei Yang
+**Junhuan Yang**, Venkat Kalyan Reddy Yasa, Yi Sheng, Dayane Reis, Xun Jiao, Weiwen Jiang, Lei Yang. ***ISVLSI2022***
 
 - [*Automated Architecture Search for Brain-inspired Hyperdimensional Computing*](https://2022.automl.cc/wp-content/uploads/2022/07/automated_architecture_search_.pdf)
-**Junhuan Yang**, Yi Sheng, Sizhe Zhang, Ruixuan Wang, Kenneth Foreman, Mikell Paige, Xun Jiao, Weiwen Jiang, Lei Yang
+**Junhuan Yang**, Yi Sheng, Sizhe Zhang, Ruixuan Wang, Kenneth Foreman, Mikell Paige, Xun Jiao, Weiwen Jiang, Lei Yang. ***AutoML2022***
 
 
 # 🎖 Honors and Awards
@@ -65,6 +66,7 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 - *2011.09 - 2015.06*, University of Electronic Science and Technology of China
 
 # 💬 Invited Talks
+- *2024.09*: Gave the tutorial of [Novel Toolkits toward AI for Science on Resource-Constrained Computing Systems](https://esfair2023.github.io/esweek_turtorial/) at [ESWEEK 2024](https://esweek.org/tutorials/)
 - *2024.06*, Gave the tutorial of [Deep Learning Techniques for Wave-Based Imaging](https://junhuanyang.github.io/Computational-Wave-Imaging/) at [SIAM 2024](https://www.siam.org/conferences/cm/program/minitutorials/is24-minitutorials)
 
 
