@@ -17,8 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in Information Technology (Information Science and Technology) at the George Mason University, advised by [Lei Yang](https://leiyang0416.github.io/) and [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on  *edge machine learning*, *AI4Science at the edge*, and *efficient AI*. I have authored over 10 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
-I also collaborate with [Youzuo Lin](https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
+I am a Ph.D. student in Information Technology (Information Science and Technology) at the George Mason University, advised by Dr. [Lei Yang](https://leiyang0416.github.io/) and Dr. [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on  *edge machine learning*, *AI4Science at the edge*, and *efficient AI*. I have authored over 10 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
+I also collaborate with Dr. [Youzuo Lin](https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
 
 I graduated from School of Information and Software Engineering,
 University of Electronic Science and Technology of China with a bachelor’s degree and a master’s degree, advised by Jinyu Zhan.
@@ -26,6 +26,7 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 
 
 # 🔥 News
+- *2024.12*: &nbsp;🎉🎉 One paper is accepted by AAAI 2025
 - *2024.09*: We give the tutorial of [Novel Toolkits toward AI for Science on Resource-Constrained Computing Systems](https://esfair2023.github.io/esweek_turtorial/) at [ESWEEK 2024](https://esweek.org/tutorials/)
 - *2024.07*: &nbsp;🎉🎉 Two papers are accepted by MICCAI 2024
 - *2024.06*: We give the tutorial of [Deep Learning Techniques for Wave-Based Imaging](https://junhuanyang.github.io/Computational-Wave-Imaging/) at [SIAM 2024](https://www.siam.org/conferences/cm/program/minitutorials/is24-minitutorials)
@@ -33,8 +34,9 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 
 
 # 📝 Selected Publications 
+- [*A Novel Diffusion Model for Pairwise Geoscience Data Generation with Unbalanced Training Dataset*], **Junhuan Yang**, Yuzhou Zhang, Yi Sheng, Youzuo Lin and Lei Yang. ***AAAI2025***
 
-- *EdGeo: A Physics-guided Generative AI Toolkit for Geophysical Monitoring on Edge Devices*,
+- [*EdGeo: A Physics-guided Generative AI Toolkit for Geophysical Monitoring on Edge Devices*] (https://dl.acm.org/doi/pdf/10.1145/3649329.3657344),
 **Junhuan Yang**, Hanchen Wang, Yi Sheng, Youzuo Lin and Lei Yang. ***DAC2024***
 
 - [*Enhanced AI for Science using Diffusion-based Generative AI-A Case Study on Ultrasound Computing Tomography*](https://dl.acm.org/doi/pdf/10.1145/3649476.3660360), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Hanchen Wang, Youzuo Lin, Lei Yang. ***GLSVLSI2024***
