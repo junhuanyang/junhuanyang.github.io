@@ -47,7 +47,7 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 **Junhuan Yang**, Venkat Kalyan Reddy Yasa, Yi Sheng, Dayane Reis, Xun Jiao, Weiwen Jiang, Lei Yang. ***ISVLSI2022***
 
 - [*Automated Architecture Search for Brain-inspired Hyperdimensional Computing*](https://2022.automl.cc/wp-content/uploads/2022/07/automated_architecture_search_.pdf)
-**Junhuan Yang**, Yi Sheng, Sizhe Zhang, Ruixuan Wang, Kenneth Foreman, Mikell Paige, Xun Jiao, Weiwen Jiang, Lei Yang. ***AutoML2022***
+**Junhuan Yang**, Yi Sheng, Sizhe Zhang, Ruixuan Wang, Kenneth Foreman, Mikell Paige, Xun Jiao, Weiwen Jiang, Lei Yang. ***AutoML2022*** *(Late-Breaking)*
 
 
 # 🎖 Honors and Awards
