@@ -39,9 +39,9 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 - [*EdGeo: A Physics-guided Generative AI Toolkit for Geophysical Monitoring on Edge Devices*](https://dl.acm.org/doi/pdf/10.1145/3649329.3657344),
 **Junhuan Yang**, Hanchen Wang, Yi Sheng, Youzuo Lin and Lei Yang. ***DAC2024***
 
-- [*Enhanced AI for Science using Diffusion-based Generative AI-A Case Study on Ultrasound Computing Tomography*](https://dl.acm.org/doi/pdf/10.1145/3649476.3660360), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Hanchen Wang, Youzuo Lin, Lei Yang. ***GLSVLSI2024***
+- [*Enhanced AI for Science using Diffusion-based Generative AI-A Case Study on Ultrasound Computing Tomography*](https://dl.acm.org/doi/abs/10.1145/3649476.3660360), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Hanchen Wang, Youzuo Lin, Lei Yang. ***GLSVLSI2024***
 
-- [*On-Device Unsupervised Image Segmentation*](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10247959), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Weiwen Jiang, Lei Yang. ***DAC2023***
+- [*On-Device Unsupervised Image Segmentation*](https://arxiv.org/abs/2303.12753), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Weiwen Jiang, Lei Yang. ***DAC2023***
 
 - [*Hardware-aware Automated Architecture Search for Brain-inspired Hyperdimensional Computing*](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9912048),
 **Junhuan Yang**, Venkat Kalyan Reddy Yasa, Yi Sheng, Dayane Reis, Xun Jiao, Weiwen Jiang, Lei Yang. ***ISVLSI2022***
