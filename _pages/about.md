@@ -36,7 +36,7 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 # 📝 Selected Publications 
 - *A Novel Diffusion Model for Pairwise Geoscience Data Generation with Unbalanced Training Dataset*, **Junhuan Yang**, Yuzhou Zhang, Yi Sheng, Youzuo Lin and Lei Yang. ***AAAI2025***
 
-- [*EdGeo: A Physics-guided Generative AI Toolkit for Geophysical Monitoring on Edge Devices*](https://dl.acm.org/doi/pdf/10.1145/3649329.3657344),
+- [*EdGeo: A Physics-guided Generative AI Toolkit for Geophysical Monitoring on Edge Devices*](https://dl.acm.org/doi/abs/10.1145/3649329.3657344),
 **Junhuan Yang**, Hanchen Wang, Yi Sheng, Youzuo Lin and Lei Yang. ***DAC2024***
 
 - [*Enhanced AI for Science using Diffusion-based Generative AI-A Case Study on Ultrasound Computing Tomography*](https://dl.acm.org/doi/abs/10.1145/3649476.3660360), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Hanchen Wang, Youzuo Lin, Lei Yang. ***GLSVLSI2024***
