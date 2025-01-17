@@ -26,7 +26,7 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 
 
 # 🔥 News
-- *2025.01*: &nbsp;🎉🎉 Our paper is selected as <span style="color: #E32636; font-weight: bold;">Oral</span> at AAAI 2025.
+- *2025.01*: &nbsp;🎉🎉 Our paper is selected as <span style="color: #FF0000; font-weight: bold;">Oral</span> at AAAI 2025.
 - *2024.12*: &nbsp;🎉🎉 One paper is accepted by AAAI 2025
 - *2024.09*: We give the tutorial of [Novel Toolkits toward AI for Science on Resource-Constrained Computing Systems](https://esfair2023.github.io/esweek_turtorial/) at [ESWEEK 2024](https://esweek.org/tutorials/)
 - *2024.07*: &nbsp;🎉🎉 Two papers are accepted by MICCAI 2024
@@ -37,7 +37,7 @@ University of Electronic Science and Technology of China with a bachelor’s deg
 # 📝 Selected Publications 
 - [*A Novel Diffusion Model for Pairwise Geoscience Data Generation with Unbalanced Training Dataset*](https://arxiv.org/abs/2501.00941), 
 **Junhuan Yang**, Yuzhou Zhang, Yi Sheng, Youzuo Lin and Lei Yang. ***AAAI2025*** [[Code]](https://github.com/junhuanyang/UB-Diff)
-(<span style="color: #E32636">Oral, 4.6% Acceptance Rate</span>)
+(<span style="color: #FF0000">Oral, 4.6% Acceptance Rate</span>)
 
 - [*EdGeo: A Physics-guided Generative AI Toolkit for Geophysical Monitoring on Edge Devices*](https://dl.acm.org/doi/abs/10.1145/3649329.3657344),
 **Junhuan Yang**, Hanchen Wang, Yi Sheng, Youzuo Lin and Lei Yang. ***DAC2024*** [[Code]](https://github.com/junhuanyang/EdGeo)
