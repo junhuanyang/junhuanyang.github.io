@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in Information Technology (Information Science and Technology) at the George Mason University, advised by Dr. [Lei Yang](https://leiyang0416.github.io/) and Dr. [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on *Multi-modal Generation*, *edge machine learning*,and *efficient AI*. I have authored over 10 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
+I am a Ph.D. student in Information Technology (Information Science and Technology) at the George Mason University, advised by Dr. [Lei Yang](https://leiyang0416.github.io/) and Dr. [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on *multi-modal Generation*, *edge machine learning*,and *efficient AI*. I have authored over 10 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
 I also collaborate with Dr. [Youzuo Lin](https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
 
 I graduated from University of Electronic Science and Technology of China with a bachelor’s degree and a master’s degree, advised by Dr. Jinyu Zhan.
