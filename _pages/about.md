@@ -22,9 +22,6 @@ I also collaborate with Dr. [Youzuo Lin](https://sites.google.com/site/youzuolin
 
 I graduated from University of Electronic Science and Technology of China with a bachelor’s degree and a master’s degree, advised by Dr. Jinyu Zhan.
 
-# 💻 Internships
-- *2025.05*, Applied Scientist Intern, Amazon, U.S.
-- *2023.05 - 2023.08*, Graduate Student, [Los Alamos National Lab](https://www.lanl.gov), U.S.
 
 # 🔥 News
 - *2025.03*: We will organize [System Design Contest (SDC)@DAC 2025](https://jqubcomp.github.io/dac-2025-comp/).
@@ -35,6 +32,9 @@ I graduated from University of Electronic Science and Technology of China with a
 - *2024.06*: We give the tutorial of [Deep Learning Techniques for Wave-Based Imaging](https://junhuanyang.github.io/Computational-Wave-Imaging/) at [SIAM 2024](https://www.siam.org/conferences/cm/program/minitutorials/is24-minitutorials)
 - *2024.02*: &nbsp;🎉🎉 One paper is accepted by DAC 2024
 
+# 💻 Internships
+- *2025.05*, Applied Scientist Intern, Amazon, U.S.
+- *2023.05 - 2023.08*, Graduate Student, [Los Alamos National Lab](https://www.lanl.gov), U.S.
 
 # 📝 Selected Publications 
 - [*A Novel Diffusion Model for Pairwise Geoscience Data Generation with Unbalanced Training Dataset*](https://arxiv.org/abs/2501.00941), 
