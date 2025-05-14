@@ -17,14 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in Information Technology (Information Science and Technology) at the George Mason University, advised by Dr. [Lei Yang](https://leiyang0416.github.io/) and Dr. [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on *multi-modal generation*, *edge machine learning*,and *efficient AI*. I have authored over 10 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
+I am a Ph.D. student in Information Technology (Information Sciences and Technology) at the George Mason University, advised by Dr. [Lei Yang](https://leiyang0416.github.io/) and Dr. [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on *multi-modal generation*, *edge machine learning*, and *efficient AI*. I have authored over 10 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
 I also collaborate with Dr. [Youzuo Lin](https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
 
 I graduated from University of Electronic Science and Technology of China with a bachelor’s degree and a master’s degree, advised by Dr. Jinyu Zhan.
 
-
+# 💻 Internships
+- *2025.05*, Applied Scientist Intern, Amazon, U.S.
+- *2023.05 - 2023.08*, Graduate Student, [Los Alamos National Lab](https://www.lanl.gov), U.S.
 
 # 🔥 News
+- *2025.03*: We will organize [System Design Contest (SDC)@DAC 2025](https://jqubcomp.github.io/dac-2025-comp/).
 - *2025.01*: &nbsp;🎉🎉 Our paper is selected as <span style="color: #FF0000; font-weight: bold;">Oral</span> at AAAI 2025.
 - *2024.12*: &nbsp;🎉🎉 One paper is accepted by AAAI 2025
 - *2024.09*: We give the tutorial of [Novel Toolkits toward AI for Science on Resource-Constrained Computing Systems](https://esfair2023.github.io/esweek_turtorial/) at [ESWEEK 2024](https://esweek.org/tutorials/)
@@ -43,7 +46,7 @@ I graduated from University of Electronic Science and Technology of China with a
 (23% Acceptance Rate)
 - [*Enhanced AI for Science using Diffusion-based Generative AI-A Case Study on Ultrasound Computing Tomography*](https://dl.acm.org/doi/abs/10.1145/3649476.3660360), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Hanchen Wang, Youzuo Lin, Lei Yang. ***GLSVLSI2024***
 
-- [*On-Device Unsupervised Image Segmentation*](https://arxiv.org/abs/2303.12753), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Weiwen Jiang, Lei Yang. ***DAC2023*** (23% Acceptance Rate)
+- [*On-Device Unsupervised Image Segmentation*](https://arxiv.org/abs/2303.12753), **Junhuan Yang**, Yi Sheng, Yuzhou Zhang, Weiwen Jiang, Lei Yang. ***DAC2023*** [[Code]](https://github.com/junhuanyang/SegHDC) (23% Acceptance Rate)
 
 - [*Hardware-aware Automated Architecture Search for Brain-inspired Hyperdimensional Computing*](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9912048),
 **Junhuan Yang**, Venkat Kalyan Reddy Yasa, Yi Sheng, Dayane Reis, Xun Jiao, Weiwen Jiang, Lei Yang. ***ISVLSI2022***
@@ -63,16 +66,16 @@ I graduated from University of Electronic Science and Technology of China with a
 - *2016.10* Graduate Student First-Class Scholarship
 - *2016.10* Outstanding Graduate Student
 
+# 💬 Invited Talks
+- *2024.09*: Gave the tutorial of [Novel Toolkits toward AI for Science on Resource-Constrained Computing Systems](https://esfair2023.github.io/esweek_turtorial/) at [ESWEEK 2024](https://esweek.org/tutorials/)
+- *2024.06*, Gave the tutorial of [Deep Learning Techniques for Wave-Based Imaging](https://junhuanyang.github.io/Computational-Wave-Imaging/) at [SIAM 2024](https://www.siam.org/conferences/cm/program/minitutorials/is24-minitutorials)
+
 # 📖 Educations
 - *2022.08 - now*, George Mason University
 - *2021.09 - 2022.07*, The University of New Mexico
 - *2015.09 - 2018.06*, University of Electronic Science and Technology of China 
 - *2011.09 - 2015.06*, University of Electronic Science and Technology of China
 
-# 💬 Invited Talks
-- *2024.09*: Gave the tutorial of [Novel Toolkits toward AI for Science on Resource-Constrained Computing Systems](https://esfair2023.github.io/esweek_turtorial/) at [ESWEEK 2024](https://esweek.org/tutorials/)
-- *2024.06*, Gave the tutorial of [Deep Learning Techniques for Wave-Based Imaging](https://junhuanyang.github.io/Computational-Wave-Imaging/) at [SIAM 2024](https://www.siam.org/conferences/cm/program/minitutorials/is24-minitutorials)
 
 
-# 💻 Internships
-- *2023.05 - 2023.08*, [Los Alamos National Lab](https://www.lanl.gov), U.S.
+
