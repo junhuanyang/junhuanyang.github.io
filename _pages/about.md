@@ -68,7 +68,7 @@ I graduated from University of Electronic Science and Technology of China with a
 - *2016.10* Graduate Student First-Class Scholarship
 - *2016.10* Outstanding Graduate Student
 
-# 💻 Review Service
+# 🖊 Review Service
 - NeurIPS 2025 Workshop Imageomics
 - AAAI 2026 Conference Program Committee
 - The Journal of Supercomputing
