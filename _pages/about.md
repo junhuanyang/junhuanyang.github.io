@@ -24,6 +24,8 @@ I graduated from University of Electronic Science and Technology of China with a
 
 
 # 🔥 News
+- *2025.09*: I will serve as a reviewer of NeurIPS 2025 Workshop Imageomics
+- *2025.07*: I will serve on the Program Committee of AAAI-26
 - *2025.03*: We will organize [System Design Contest (SDC)@DAC 2025](https://jqubcomp.github.io/dac-2025-comp/).
 - *2025.01*: &nbsp;🎉🎉 Our paper is selected as <span style="color: #FF0000; font-weight: bold;">Oral</span> at AAAI 2025.
 - *2024.12*: &nbsp;🎉🎉 One paper is accepted by AAAI 2025
@@ -33,7 +35,7 @@ I graduated from University of Electronic Science and Technology of China with a
 - *2024.02*: &nbsp;🎉🎉 One paper is accepted by DAC 2024
 
 # 💻 Internships
-- *2025.05*, Applied Scientist Intern, Amazon, U.S.
+- *2025.05 - 2025.08*, Applied Scientist Intern, Amazon, U.S.
 - *2023.05 - 2023.08*, Graduate Student, [Los Alamos National Lab](https://www.lanl.gov), U.S.
 
 # 📝 Selected Publications 
@@ -65,6 +67,16 @@ I graduated from University of Electronic Science and Technology of China with a
 - *2016.10* National Scholarship
 - *2016.10* Graduate Student First-Class Scholarship
 - *2016.10* Outstanding Graduate Student
+
+# 💻 Review Service
+- NeurIPS 2025 Workshop Imageomics
+- AAAI 2026 Conference Program Committee
+- The Journal of Supercomputing
+- IEEE Trans. on Circuits and Systems I (TCAS-I)
+- IEEE Trans. on Circuits and Systems II (TCAS-II)
+- IEEE Trans. on Consumer Electronics (TCE)
+- ECAI 2023
+
 
 # 💬 Invited Talks
 - *2024.09*: Gave the tutorial of [Novel Toolkits toward AI for Science on Resource-Constrained Computing Systems](https://esfair2023.github.io/esweek_turtorial/) at [ESWEEK 2024](https://esweek.org/tutorials/)
