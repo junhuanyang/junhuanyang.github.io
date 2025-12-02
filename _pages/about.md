@@ -41,7 +41,8 @@ I graduated from University of Electronic Science and Technology of China with a
 - *2023.05 - 2023.08*, Graduate Student, [Los Alamos National Lab](https://www.lanl.gov), U.S.
 
 # 📝 Selected Publications 
-- *DiGiT: A Diffusion-based Modular Geophysical Toolkit for On-Device Multi-modal Data Generation*, **Junhuan Yang**, Yuzhou Zhang, Yi Sheng, Youzuo Lin and Lei Yang.
+- *DiGiT: A Diffusion-based Modular Geophysical Toolkit for On-Device Multi-modal Data Generation*, **Junhuan Yang**, Yuzhou Zhang, Yi Sheng, Youzuo Lin and Lei Yang. ***TECS*** (Link forthcoming)
+
 - [*A Novel Diffusion Model for Pairwise Geoscience Data Generation with Unbalanced Training Dataset*](https://arxiv.org/abs/2501.00941), 
 **Junhuan Yang**, Yuzhou Zhang, Yi Sheng, Youzuo Lin and Lei Yang. ***AAAI2025*** [[Code]](https://github.com/junhuanyang/UB-Diff)
 (<span style="color: #FF0000">Oral, 4.6% Acceptance Rate</span>)
