@@ -25,7 +25,6 @@ I graduated from University of Electronic Science and Technology of China with a
 
 # 🔥 News
 - *2025.11*: &nbsp;🎉🎉 One paper is accepted by ACM Transactions on Embedded Computing Systems (TECS)
-- *2025.11*: I will serve as a reviewer of CVPR 2026
 - *2025.09*: I will serve as a reviewer of NeurIPS 2025 Workshop Imageomics
 - *2025.07*: I will serve on the Program Committee of AAAI-26
 - *2025.03*: We will organize [System Design Contest (SDC)@DAC 2025](https://jqubcomp.github.io/dac-2025-comp/).
@@ -73,7 +72,7 @@ I graduated from University of Electronic Science and Technology of China with a
 - *2016.10* Outstanding Graduate Student
 
 # 🖊 Review Service
-- CVPR 2026
+- ACM Transactions on Embedded Computing Systems (TECS)
 - NeurIPS 2025 Workshop Imageomics
 - AAAI 2026 Conference Program Committee
 - The Journal of Supercomputing
