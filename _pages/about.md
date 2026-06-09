@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in Information Technology (Information Sciences and Technology) at the George Mason University, advised by Dr. [Lei Yang](https://leiyang0416.github.io/) and Dr. [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on *multi-modal generation*, *edge machine learning*, and *efficient AI*. I have authored over 10 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
+I am an Applied Scientist at Amazon, working on payment fraud prevention. I obtained my Ph.D. degree at the George Mason University, advised by Dr. [Lei Yang](https://leiyang0416.github.io/) and Dr. [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on *multi-modal generation*, *edge machine learning*, and *efficient AI*. I have authored over 20 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
 I also collaborate with Dr. [Youzuo Lin](https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
 
 I graduated from University of Electronic Science and Technology of China with a bachelor’s degree and a master’s degree, advised by Dr. Jinyu Zhan.
@@ -73,10 +73,15 @@ I graduated from University of Electronic Science and Technology of China with a
 - *2016.10* Outstanding Graduate Student
 
 # 🖊 Review Service
-- Knowledge Discovery and Data Mining (KDD)
+- NeurIPS 2026
+- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+- IEEE Transactions on Multimedia (TMM)
+- Pattern Recognition (PR)
+- ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2026 (KDD)
 - ACM Transactions on Embedded Computing Systems (TECS)
 - NeurIPS 2025 Workshop Imageomics
 - AAAI 2026 Conference Program Committee
+- IEEE Open Journal of Signal Processing
 - The Journal of Supercomputing
 - IEEE Trans. on Circuits and Systems I (TCAS-I)
 - IEEE Trans. on Circuits and Systems II (TCAS-II)
@@ -91,7 +96,7 @@ I graduated from University of Electronic Science and Technology of China with a
 - *2024.06*, Gave the tutorial of [Deep Learning Techniques for Wave-Based Imaging](https://junhuanyang.github.io/Computational-Wave-Imaging/) at [SIAM 2024](https://www.siam.org/conferences/cm/program/minitutorials/is24-minitutorials)
 
 # 📖 Educations
-- *2022.08 - now*, George Mason University
+- *2022.08 - 2025.10*, George Mason University
 - *2021.09 - 2022.07*, The University of New Mexico
 - *2015.09 - 2018.06*, University of Electronic Science and Technology of China 
 - *2011.09 - 2015.06*, University of Electronic Science and Technology of China
