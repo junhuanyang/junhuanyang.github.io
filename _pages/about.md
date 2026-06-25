@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an Applied Scientist at Amazon, working on payment fraud prevention. I obtained my Ph.D. degree at the George Mason University, advised by Dr. [Lei Yang](https://leiyang0416.github.io/) and Dr. [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on *multi-modal generation*, *edge machine learning*, and *efficient AI*. I have authored over 20 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
+I am currently an Applied Scientist at Amazon. I obtained my Ph.D. degree at the George Mason University, advised by Dr. [Lei Yang](https://leiyang0416.github.io/) and Dr. [Weiwen Jiang](https://jqub.github.io/). My primary research interests focus on *multi-modal generation*, *edge machine learning*, and *efficient AI*. I have authored over 20 papers in leading conferences and journals ([Google scholar](https://scholar.google.com/citations?user=otFECasAAAAJ&hl)).
 I also collaborate with Dr. [Youzuo Lin](https://sites.google.com/site/youzuolin044/home) from University of North Carolina at Chapel Hill and Los Alamos National Lab closely.
 
 I graduated from University of Electronic Science and Technology of China with a bachelor’s degree and a master’s degree, advised by Dr. Jinyu Zhan.
